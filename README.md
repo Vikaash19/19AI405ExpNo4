@@ -179,7 +179,7 @@ def heuristic(n):
 
 
 #Describe your graph here
-'''Graph_nodes = {
+Graph_nodes = {
     'A': [('B', 6), ('F', 3)],
     'B': [('A', 6), ('C', 3), ('D', 2)],
     'C': [('B', 3), ('D', 1), ('E', 5)],
@@ -190,7 +190,6 @@ def heuristic(n):
     'H': [('F', 7), ('I', 2)],
     'I': [('E', 5), ('G', 3), ('H', 2), ('J', 3)],
 }
-'''
 graph = defaultdict(list)
 n,e = map(int,input().split())
 for i in range(e):
