@@ -5,7 +5,6 @@
 <p>To ImplementA * Search algorithm for a Graph using Python 3.</p>
 <H3>Algorithm:</H3>
 
-// A* Search Algorithm
 1.  Initialize the open list
 2.  Initialize the closed list
     put the starting node on the open 
@@ -21,6 +20,7 @@
        parents to q
    
     d) for each successor
+    ```
         i) if successor is the goal, stop search
         ii) else, compute both g and h for successor
           successor.g = q.g + distance between 
@@ -39,7 +39,7 @@
             a lower f than successor, skip this successor
             otherwise, add  the node to the open list
      end (for loop)
-  
+  ```
     e) push q on the closed list
     end (while loop)
 ## Program:
